@@ -1,0 +1,49 @@
+body{
+  align-items: center;
+  text-align: center;
+  display: center;
+  vertical-align: center;
+  margin-left:50px;
+  margin-right:50px;
+  
+  background: linear-gradient(-150deg,red,blue, yellow);
+  background-size: 100% 100%;
+  animation: gradient 12s ease gradient;
+  height: 100vh;}
+
+  
+ @keyframes gradient {
+   50% 
+  { background-position:50% 100%;}
+  50% 
+  {background-position:100% 50%;}
+  100%
+  {background-position:50% 100%}
+  
+ }
+  
+  body button{
+    
+  margin-top:15px;
+ text-align: center;
+ text-decoration: none;
+  border-radius: 10px;
+  border: 10px;
+  border-bottom: 1px black;
+  align-items: center;
+  height:25px;
+  position: auto;
+  display: inline-block;
+  padding: 05px 10px;
+  background-color: black;
+  }
+  
+body button a{
+  text-decoration:none;
+  margin-left: center;
+  margin-right: center;
+  align-items: center;
+  text-align: center;
+  color:red;
+  display: auto;
+}
