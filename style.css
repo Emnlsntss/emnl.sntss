@@ -40,5 +40,5 @@ body button a {
   margin-top:5px;
   position:absolute;
   animation: to 10s linear infinite;
-  position: relative;
+  position:absolute;
 }
